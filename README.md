@@ -1,6 +1,21 @@
 # pmux
 Path MUltipleXer — associate filesystem paths with tags, then list them back by tag.
 
+## Install
+
+### Homebrew (macOS and Linux)
+
+```sh
+brew tap phoenixcw/pmux
+brew install pmux
+```
+
+### From source
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```sh
