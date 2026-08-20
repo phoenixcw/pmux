@@ -6,9 +6,12 @@ Path MUltipleXer — associate filesystem paths with tags, then list them back b
 ### Homebrew (macOS and Linux)
 
 ```sh
-brew tap phoenixcw/pmux
-brew install pmux
+brew install phoenixcw/pmux/pmux
 ```
+
+Installing by the fully qualified name grants trust to this single formula, so no
+separate `brew tap` or `brew trust` step is needed. Upgrade with
+`brew upgrade phoenixcw/pmux/pmux`.
 
 ### From source
 
